@@ -11,5 +11,15 @@ height = int(height)
 
 bmi = weight/height**2 * 10000
 
-print(f"Your bmi is {bmi}")
+
+if bmi<18.5: 
+	message = f"You are under weighted, Eat More!"
+elif bmi<25:
+	message = f"You are healthy, so keep up with it!"
+else:
+	message = f"You are over-weighted! So FAT!"
+
+print(f"Your bmi is {bmi}. {message}")
+
+
 
