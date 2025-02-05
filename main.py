@@ -28,7 +28,7 @@ else:
 
 print(f"Hey {name}, your BMI is {BMI}. {msg}")
 
-
+print("Goodbye!")
 
 
 
